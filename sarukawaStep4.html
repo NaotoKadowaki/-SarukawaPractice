@@ -171,7 +171,7 @@
 </body>
 </html> -->
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -191,5 +191,53 @@
 <body>
     <p class="rei1">上と左にだけ線</p>
     <p class="rei2">下と右にだけ線</p>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        /* ページ全体を背景色をベージュに */
+        background-color: #FFFBF4;
+        /* 全体を中央揃え */
+        text-align: center;
+        }
+
+        h1 {
+            /* h1タグ内の文字の色を変える。 */
+            color: #F89174
+        }
+        #headline {
+            /* id="headline"の下に点線を引く */
+            border-bottom:dotted 2px black;
+        }
+        .main p {
+            /* id="headline"の中のフォントサイズを１.２倍に */
+            font-size:1.2em;
+        }
+        h2 {
+            /* h2タグの文字色をオレンジに */
+            color:orange;
+        }
+        a {
+            color:gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="headline">
+    <h1>CSS入門</h1>
+    </div>
+    <div class="main">
+        <h2>これは見出しです。</h2>
+        <p>これは<span class="light">例</span>です。</p>
+        <p>
+            <a href="https://saruwakakun.com/">ホームへ</a>戻ります。
+        </p>
+    </div>
 </body>
 </html>
