@@ -1,0 +1,53 @@
+/* p {
+    width: 100px;
+    height:100px;
+    background: orange;
+}*/
+/* .parent {
+    width: 100px;
+}
+p {
+    background:orange;
+} */
+/* .example img {
+    width: 50px;
+} */
+/* .grandpa {
+    width: 200px;
+    height: 200px;
+    background: silver;
+}
+.parent {
+    /* 200pxの半分で１００pに */
+    /* width:50%;
+    height:200px;
+    background:yellow;
+}
+.parent p {
+    /* 半分の半分に */
+    /* width:50%;
+    height:200px;
+    background:orange;
+}  */
+/* #test {
+    background:orange;
+    height: 50px;
+} */
+/* #test1 {
+    background: gray;
+  }
+  #test2 {
+    background: gray;
+    height: 100px;
+  }
+  p {
+    height: 50%; 
+    background: orange;
+  } */
+  html,body {
+      height: 100%;
+  }
+   #headline{
+       height: 50%;
+       background: orange;
+   }
