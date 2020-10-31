@@ -1,0 +1,56 @@
+/* p {
+    background: orange;
+    padding: 10px;
+    border: solid 10px black;
+    margin: 0;
+}
+img {
+    border: solid 20px black;
+} */
+/* .middle { */
+    /*真ん中の要素*/
+    /* background: orange;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  .above {
+    background: skyblue;
+  }
+  .under {
+    background: silver;
+  } */
+  /* .middle {
+      background: orange;
+      margin: 0 0 20px 20px;
+      padding: 0 0 20px 20px;
+  }
+
+  .above {background: skyblue}
+   .under {background: silver} */
+
+   /* .middle {
+       background: orange;
+       margin:20px 0;
+       padding:0 20px;
+   } */
+   /* .parent {
+       background: silver;
+       width:200px;
+   }
+   .parent p {
+       width: 60%;
+       margin: 0 20%;
+       padding: 0;
+       background: orange;
+       border: solid 6px black;
+   }
+ */
+.parent {
+    background: silver;
+    width:250px
+}
+.parent p {
+    margin:0 auto;
+    width:50px;
+    background: orange;
+}
