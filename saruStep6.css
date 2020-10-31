@@ -1,0 +1,40 @@
+/* .test1 {
+    width: 200px;
+    background: skyblue;
+}
+.test2 {
+    width: 100px;
+    background: skyblue;
+}
+.nomin {
+    background: gray;
+    width: 50%;
+}
+.min {
+    background: orange;
+    width: 50%;
+    min-width: 100px;
+} */
+/* .test1 {
+    width: 100px;
+    background: skyblue;
+}
+.test2 {
+    width: 200px;
+    background: skyblue;
+}
+.nomin {
+    background: gray;
+    width:80%
+}
+.min {
+    background: orange;
+    width: 80%;
+    max-width: 100px;
+} */
+
+img {
+    width: 800px;
+    max-width:100%;
+    height:auto;
+}
