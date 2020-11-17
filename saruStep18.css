@@ -1,0 +1,25 @@
+/* p{
+    white-space: normal;
+    width: 100px;
+    background: skyblue;
+} */
+/* p{
+    white-space: nowrap;
+    width: 100px;
+    background: skyblue;
+} */
+/* p{
+    white-space: pre-line;
+    width: 100px;
+    background: skyblue;
+} */
+/* p{
+    white-space: pre;
+    width: 100px;
+    background: skyblue;
+} */
+p{
+    white-space: pre-wrap;
+    width: 100px;
+    background: skyblue;
+}
