@@ -1,3 +1,56 @@
-a{
+/* a{
     text-decoration:none;
+}
+a{
+    text-decoration:underline;
+} */
+/* .noline{
+    text-decoration: none;
+} */
+/* p a {
+    text-decoration: none;
+} */
+/* a{
+    color: skyblue;
+    text-decoration: none;
+} */
+/* a{
+    text-decoration: none;
+}
+#example:hover{
+    color: skyblue;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+} */
+/* a{
+    text-decoration: none;
+}
+a:hover img{
+border: solid 10px gold;
+text-decoration: none;
+} */
+/* a:hover img{
+    filter: alpha(opacity=20);
+    -moz-opacity:0.2;
+    opacity:0.2;
+} */
+/* a:visited{
+    color: silver;
+} */
+.link_button{
+    font-weight:bold;
+    text-decoration: none;
+    background: skyblue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-family: 'Avenir','Arial';
+}
+.link_button:hover{
+    background:silver;
+    text-decoration: none;
+}
+.link_button:visited{
+    color: gray;
 }
