@@ -1,0 +1,22 @@
+#example{
+    position: relative;
+}
+/* .one, .two, .three{
+    position: absolute;
+} */
+.one {
+    z-index: 30;
+    position: relative;
+  }
+  .two {
+    z-index: 20;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  .three {
+    z-index: 10;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+  }
