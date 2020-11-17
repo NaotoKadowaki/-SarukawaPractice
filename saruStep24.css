@@ -1,0 +1,99 @@
+/* h1::before{
+    content:'内容';
+}
+.example::after {
+    content:'内容';
+}
+p::after {
+    content:'Hello';
+} */
+/* .example::before{
+    content:'『';
+    color:skyblue;
+}
+.example::after{
+    content: '』';
+    color: skyblue;
+} */
+/* .example{
+    text-align: center;
+}
+.example::before{
+    content: 'TITLE HERE';
+    color: gray;
+    font-size: 2em;
+    display: block;
+} */
+/* h3{
+    text-align:center;
+    position:relative;
+    padding:1em;
+    background:silver;
+}
+h3::before{
+    position:absolute;
+    content:'ラベル';
+    top:0;
+    left:0;
+    color:white;
+    padding:0.2em;
+    background:#F89174 */
+/* } */
+/* h3:before
+{
+  font-family: FontAwesome;
+  content: "\f00c";
+  padding-right : 5px;/*文字との隙間*/
+  /* color: #f89174;/*アイコンの色*/
+/* } */ 
+/* blockquote{
+    position: relative;
+    background: #EFEFEF;
+    padding: 20px 10px 15px;
+}
+blockquote:before{
+    position: absolute;
+    font-family:FontAwesome;
+    content: '\f10d';
+    top: 10px;
+    left: 10px;
+    color: goldenrod;
+    font-size: 1.5em;
+} */
+/* .flow{
+    text-align: center;
+    list-style-type: none;
+}
+.flow li:not(:last-child):after{
+    font-family: 'FontAwesome';
+    content:'\f0a7';
+    display: block;
+    font-size: 2em;
+    color: skyblue;
+    padding: 0.3;
+
+} */
+/* #example:before{
+    content: url(https://source.unsplash.com/random/80x80);
+    display:block;
+} */
+.example{
+    position: relative;
+    background: #EFEFEF;
+    width:300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom:30px;
+}
+.example:before{
+    position:absolute;
+    content:'';
+    border-top:20px solid red;
+    border-right: 20px solid transparent;
+    border-left:20px solid transparent;
+    top:100%;
+    left:50%;
+    transform:franslateX(-50%);
+
+
+}
