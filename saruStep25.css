@@ -1,0 +1,119 @@
+/* div{
+    text-align: center;
+}
+p {
+    text-align: center;
+} */
+/* p{
+    text-align:center;
+} */
+/* .example{
+    margin: 10px auto;
+    width: 50px;
+    background: orange;
+
+} */
+/* .parent{
+    text-align: center;
+}
+.example{
+    display: inline-block;
+    width: 100px;
+    background: orange;
+    /* text-align: left; */
+/* } */
+/* .parent{
+    height: 150px;
+    background: orange;
+}
+.parent p{
+    line-height: 150px;
+    text-align: center;
+} */
+/* .parent{
+    height: 150px;
+    background: orange;
+}
+.parent p {
+    line-height: 150px;
+} */
+/* .parent {
+    /*親要素*/
+    /* position: relative;
+    background: orange;
+    height: 200px;
+  }
+  
+  .parent p {
+    position: absolute;
+    top: 50%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%); */
+    /* .parent{
+        position: relative;
+        background: orange;
+        height: 200px;
+    } 
+    .parent:before{
+        position: absolute;
+        top:50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        content: 'BOX';
+        background-image: yellow;
+    } */
+    /* .parent {
+        /*親要素*/
+        /* position: relative;
+        background: orange;
+        height: 200px;
+      }
+    .parent p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform : translate(-50%,-50%);
+        transform : translate(-50%,-50%);
+        width: 100px;
+        text-align: center;/*一応BOX内の文字も中央寄せ*/
+        /* margin: 0;
+      }  */
+      /* .parent{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 200px;
+          background: orange;
+      }
+      .example{
+          display: block;
+          width: 100px;
+          background: #FFF;
+      } */
+      /* .circle{
+          display: inline-block;
+          text-align: center;
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          border-radius: 50%;
+          background: skyblue;
+          color: #FFF;
+      } */
+      .circle {
+        position: relative;
+        text-align: center;
+        background: skyblue;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+      }
+      .circle p {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100px;/*上のwidthと合わせる*/
+        text-align: center;
+        -webkit-transform : translateY(-50%);
+        transform : translateY(-50%);
+      }
