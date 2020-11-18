@@ -1,0 +1,18 @@
+/* .example img {
+    transition: 3s;
+}
+.example img:hover{
+    opacity: 0.5;
+} */
+.example img{
+    opacity: 0.1;
+    transition: 3s;
+}
+.example img:hover{
+    opacity: 1;
+}
+.opa {
+    /* opacity: 0.3; */
+    /* color: rgba(0,0,0,0.3); */
+    /* color: transparent; */
+}
