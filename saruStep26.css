@@ -1,0 +1,75 @@
+/* #sample {
+    height: 200px;
+    background: -moz-linear-gradient(top, #FFC778, #FFF);
+    background: -webkit-linear-gradient(top, #FFC778, #FFF);
+    background: linear-gradient(to bottom, #FFC778, #FFF); */
+  /* }  */
+
+  /* #sample{
+      height: 200px; */
+      /* background: -moz-linear-gradient(left, #FFC778,#FFF); */
+      /* background: -webkit-linear-gradient(right,#FFC778,#FFF); */
+      /* background: linear-gradient(to right,#FFC778,#FFF); */
+  /* } */
+  /* #sample{
+      height: 200px;
+      background: -moz-linear-gradient(left, #FFC778 50%,#FFF);
+      background: -webkit-linear-gradient(left, #FFC778 50%,#FFF);
+      background: linear-gradient(to right, #FFC778 50%, #FFF);
+  } */
+  /* #sample{
+      height: 200px;
+      background: -moz-linear-gradient(to bottom,#FFF,#FFC778 30%,#F89174);
+      background: -webkit-linear-gradient(to bottom,#FFF,#FFC778 30%,#F89174);
+      background:linear-gradient(to bottom,#FFF,#FFC778 30%,#F89174);
+
+  } */
+  /* #sample{
+      height: 200px;
+      background: -moz-linear-gradient(top,#FFF,#FFC778 30%,#F89174 60%,#748af8);
+      background: -webkit-linear-gradient(top,#FFF,#FFC778 30%,#F89174 60%,#748af8);
+      background: linear-gradient(to bottom,,#FFF,#FFC778 30%,#F89174 60%,#748af8)
+      } */
+      /* #sample{
+          height: 200px; */
+          /* background: -moz-linear-gradient(65deg, #F13F79, #FFC778);  */
+          /* background: -webkit-linear-gradient(65deg, #F13F79, #FFC778);  */
+          /* background: linear-gradient(25deg, #F13F79, #FFC778);  */
+          /* 円形 */
+          /* background: -webkit-radial-gradient(#F14F79,#FFC778); */
+            /* background: -moz-radial-gradient(#F13F79, #FFC778); 
+            background: -webkit-radial-gradient(#F13F79, #FFC778); 
+            background: radial-gradient(#F13F79, #FFC778); 
+          } */
+          /* #sample{
+              height: 200px;
+              background: -moz-linear-gradient(top, #FFC778, transparent);
+  background: -webkit-linear-gradient(top, #FFC778, transparent);
+  background: linear-gradient(to bottom, #FFC778, transparent);
+          } */
+          /* #sample {
+              height: 200px;
+            background: -moz-linear-gradient(top, #FFC778, rgba(255, 0, 0, 0.1));
+            background: -webkit-linear-gradient(top, #FFC778, rgba(255, 0, 0, 0.1));
+            background: linear-gradient(to bottom, #FFC778, rgba(255, 0, 0, 0.1));
+          } */
+          #sample {
+            /* background: -moz-linear-gradient(65deg, rgba(255, 190, 44, 0.4), rgba(255, 44, 171, 0.7)),url(https://source.unsplash.com/random/80x80);
+            background: -webkit-linear-gradient(65deg, rgba(255, 190, 44, 0.4), rgba(255, 44, 171, 0.7)),url(https://source.unsplash.com/random/80x80);
+            background: linear-gradient(25deg, rgba(255, 190, 44, 0.4), rgba(255, 44, 171, 0.7)),url(https://source.unsplash.com/random/80x80);
+            background-size:cover;
+            /*以下グラデーションとは関係のない部分*/
+            /* height: 200px;
+            line-height: 200px;
+            text-align: center;
+            color: #FFF; */ 
+            height: 200px;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,03bf4e+29,a90329+60,04c966+64,6d0019+100 */
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top,  #a90329 0%, #03bf4e 29%, #a90329 60%, #04c966 64%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a90329 0%,#03bf4e 29%,#a90329 60%,#04c966 64%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a90329 0%,#03bf4e 29%,#a90329 60%,#04c966 64%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+
+          }
+          
